@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./weather.css">
+</head>
+<body>
+
+    <nav>
+        <div>
+            <img src="./imgs-weather/logo-weather-b.svg" width="70">
+        </div>
+    </nav>
+    <main class="m-container">
+        <div class="m-child weather-info-container">
+           <div>
+            <div class="city-name">Enter City</div>
+            <div class="weather-temp">
+                <span class="temperature">TBD</span>
+                <span>&#8457; </span>
+                <span><img class="icon" src="https://openweathermap.org/img/wn/10n@4x.png" width="100"/></span>
+            </div>
+            <div class="weather-desc">TBD</div>
+           </div>
+           <div>
+               <input class="search" type="text" placeholder="Enter City"/>
+           </div>
+        </div>
+        <div class="m-child weather-img-container">
+            <img src="./imgs-weather/main-weather-b.svg" width="580">
+        </div>
+    </main>
+    
+</body>
+<script src="./weather.js"></script>
+</html>
